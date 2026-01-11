@@ -10,7 +10,21 @@ license: apache-2.0
 
 # Face Liveness Detection Model
 
+[![Version](https://img.shields.io/badge/version-v1.0.0-blue.svg)](https://github.com/affineinsai/face-liveness-vit/releases/tag/v1.0.0)
+[![License](https://img.shields.io/badge/license-Apache%202.0-green.svg)](LICENSE)
+[![PyTorch](https://img.shields.io/badge/pytorch-2.0+-red.svg)](https://pytorch.org/)
+
 This model performs **face liveness detection** to distinguish between real faces and spoofing attempts (e.g., printed photos, video replay attacks, masks).
+
+## Release History
+
+### v1.0.0 (January 2026)
+- Initial release of Face Liveness ViT model
+- Trained on CelebA-Spoof dataset
+- Achieves optimal threshold of 0.1199 for balanced accuracy
+- Lightweight architecture (128 embedding dim, 2 layers, 4 heads)
+- Includes pre-trained model checkpoint with configuration
+- Ready-to-use inference script provided
 
 ## Files Included
 
